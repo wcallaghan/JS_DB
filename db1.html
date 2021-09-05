@@ -2,28 +2,23 @@
 <HTML>
 	<HEAD>
 	<title>Will Callaghan</title>
-	<style>
-	body {
-		background-color: lightblue;
-}
-
-	h1 {
-		margin-left: 20px;
-		font-size: 2.5em;
-		text-align: center;
-}
-	p {
-		margin-left: 20px;
-		font-size: 1.5em;
-		text-align: center;
-}
-	</style>
+	<link rel="stylesheet" href="db1.css">
+	<script src="db1.js"></script>
 	</HEAD>
 		<BODY>
 			<h1>Discussion Board 1</h1>
-			<button type="button"
-			onclick="document.getElementById('answer').innerHTML = 'Javascript was created in 1995 by the Netscape corperation as a scripting language for their web browser Netscape Navigator which was one of the early web browsers with a GUI. Javascript was born from the collaboration between Java programming language and Scheme.'"> 
-			Click me to get the answer.</button>
-			<p id="answer"></p>
+			
+			<div id="answer1">
+				<button type="button" onclick="answer1()"> Click me to get answer #1.</button>
+			</div>
+			<div id="answer2">
+				<button type="button" onclick="answer2()">Click me to get answer #2.</button>
+			</div>
+			<div id="answer3">
+				<button type="button" onclick="answer3()">Click me to get answer #3.</button>
+			</div>
+			<div id="answer4">
+				<button type="button" onclick="answer4()">Click me to get answer #4.</button>
+			</div>		
 		</BODY>	
 </HTML>
